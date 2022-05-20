@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'express',
+1 verbose cli   'ejs',
+1 verbose cli   'body-parseer'
+1 verbose cli ]
+2 info using npm@6.14.15
+3 info using node@v12.22.6
+4 verbose npm-session a45b36398efa33a6
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/ejs 101ms
+8 http fetch GET 200 https://registry.npmjs.org/express 105ms
+9 http fetch GET 200 https://registry.npmjs.org/ejs/-/ejs-3.1.8.tgz 35ms
+10 http fetch GET 404 https://registry.npmjs.org/body-parseer 191ms
+11 silly pacote tag manifest for ejs@latest fetched in 197ms
+12 http fetch GET 200 https://registry.npmjs.org/express/-/express-4.18.1.tgz 89ms
+13 silly pacote tag manifest for express@latest fetched in 206ms
+14 http fetch GET 404 https://registry.npmjs.org/body-parseer 154ms
+15 silly fetchPackageMetaData error for body-parseer@latest 404 Not Found - GET https://registry.npmjs.org/body-parseer - Not found
+16 timing stage:rollbackFailedOptional Completed in 1ms
+17 timing stage:runTopLevelLifecycles Completed in 409ms
+18 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/body-parseer - Not found
+18 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:117:15
+18 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+19 verbose statusCode 404
+20 verbose pkgid body-parseer@latest
+21 verbose cwd /home/ubuntu/week5
+22 verbose Linux 5.4.181-99.354.amzn2.x86_64
+23 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "express" "ejs" "body-parseer"
+24 verbose node v12.22.6
+25 verbose npm  v6.14.15
+26 error code E404
+27 error 404 Not Found - GET https://registry.npmjs.org/body-parseer - Not found
+28 error 404
+29 error 404 'body-parseer@latest' is not in the npm registry.
+30 error 404 You should bug the author to publish it (or use the name yourself!)
+31 error 404 Note that you can also install from a
+32 error 404 tarball, folder, http url, or git url.
+33 verbose exit [ 1, true ]
